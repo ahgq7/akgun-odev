@@ -1,0 +1,52 @@
+# ── Derleme çıktıları ──────────────────────────────────
+build/
+build-windows/
+deploy/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.make
+*.ninja
+*.a
+*.o
+*.dylib
+*.so
+*.dll
+*.exe
+*.app/
+
+
+# ── Qt otomatik üretilen dosyalar ─────────────────────
+*_autogen/
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qm
+
+# ── macOS sistem dosyaları ────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
+
+# ── IDE ve editör dosyaları ───────────────────────────
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+*.swp
+*.swo
+*~
+.clangd/
+.cache/
+compile_commands.json
+
+# ── Geçici ve log dosyaları ───────────────────────────
+*.log
+*.tmp
+*.temp
